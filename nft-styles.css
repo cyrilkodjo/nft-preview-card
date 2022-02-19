@@ -1,0 +1,112 @@
+body
+{
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit;
+}
+
+img
+{
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 4%;
+}
+
+.card-container
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.nft-holder
+{
+    width: 250px;
+    height: 430px;
+    border-radius: 4%;
+    background-color: hsl(216, 50%, 16%);
+    color: white;
+    text-align: left;
+    border: 3px;
+    padding: 15px 1px 15px 25px;
+    /*padding-top: 15px;
+    padding-bottom: 2px;
+    padding-left: 30px;*/
+}
+
+.p1
+{
+    font-size: 18px;
+}
+
+.p2
+{
+    font-size: 14px;
+    color: hsl(215, 51%, 70%);
+    
+}
+
+.p3
+{
+    font-size: 11px;
+    color: hsl(215, 51%, 70%);
+    
+}
+
+.p3 a 
+{
+     color: white; 
+     text-decoration: none;
+}
+
+.hr-line
+{
+    
+    /*color: hsl(215, 32%, 27%);*/
+    align-content: center;
+    padding-right: 25px;
+    
+}
+
+.row
+{
+    display: flex;
+    padding-bottom: 8px;
+}
+
+.col-1
+{
+    flex: 50%;
+    color: hsl(178, 100%, 50%);
+    font-size: 13px;
+    padding-right: 45px;
+    
+}
+
+.col-2
+{
+    flex: 50%;
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+}
+
+.avatar
+{
+  vertical-align: middle;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: white solid 2px;
+}
+
+.attribution
+ { 
+     color: white;
+     font-size: 11px; 
+     text-align: center; 
+ }
+
+.attribution a 
+{
+     color: hsl(228, 45%, 44%); 
+}
